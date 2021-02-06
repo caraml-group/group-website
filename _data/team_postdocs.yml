@@ -1,0 +1,13 @@
+# Project team members listed below will appear on the /team page
+
+- name: Nikola Simidjievski
+  role: Artificial Intelligence, Department of Computer Science and Technology
+  image: assets/img/members/n-simidjievski.jpg
+  description: > # Can be Markdown
+    I am currently a postdoc at the Department of Computer Science and Technology, working with Prof. Mateja Jamnik and Prof. Pietro Liò. My research interests are at the intersection of machine learning and natural sciences (medicine, biology and neuroscience). More specifically, I am interested in different topics of Bayesian inference and causal inference from multi-modal data and their application in oncology. I have experience in computational scientific discovery, and I am quite keen on machine learning for modelling dynamic systems. More broadly, I am also interested in applications of machine learning for space research. 
+  # github: 
+  twitter: simidjievskin
+  web: https://simidjievskin.github.io
+  # linkedin: 
+  # gscholar: 
+

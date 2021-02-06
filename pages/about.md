@@ -1,11 +1,15 @@
 ---
 title: About
-description: Example page for [Markdown syntax](https://guides.github.com/features/mastering-markdown/)
-background: https://images.unsplash.com/photo-1486825586573-7131f7991bdd?auto=format&w=2000
+description: Learn more about our research
+background: /assets/img/cambridge3.jpg
 permalink: /about/
 ---
 
-See [`pages/about.md`](https://raw.githubusercontent.com/peterdesmet/petridish/master/pages/about.md) for the raw Markdown of this page.
+
+TODO: Insert research statement and description of main themes.
+
+
+<!-- See [`pages/about.md`](https://raw.githubusercontent.com/peterdesmet/petridish/master/pages/about.md) for the raw Markdown of this page.
 
 ## Headings
 
@@ -188,3 +192,4 @@ Itself meat. Won't were face third tree from us seed kind man fruit sixth bring 
 
 {: .clearfix}
 Life brought good appear good grass air abundantly a. Life. Rule be brought unto. Fly days fruit evening. Us.
+ -->

@@ -5,7 +5,9 @@ description: Template for team page
 
 {{ content }}
 
-{% for member in site.data.team %}
+<h4>Academic staff members</h4>
+
+{% for member in site.data.team_pis %}
   <div class="media team-member">
     <img class="mr-3" src="{{ member.image | relative_url }}">
     <div class="media-body">
@@ -42,8 +44,216 @@ description: Template for team page
           <a href="https://github.com/{{ member.github }}"><i class="fa fa-github"></i></a>
         </li>
         {% endif %}
+
+        {% if member.web%}
+        <li class="list-inline-item">
+          <a href="{{ member.web}}"><i class="fa fa-globe"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.linkedin%}
+        <li class="list-inline-item">
+          <a href="{{ member.linkedin}}"><i class="fa fa-linkedin"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.gscholar%}
+        <li class="list-inline-item">
+          <a href="{{ member.gscholar}}"><i class="ai ai-google-scholar"></i></a>
+        </li>
+        {% endif %}
       </ul>
     </div>
   </div>
 {% endfor %}
+
+
+<h4>Post-Docs</h4>
+
+{% for member in site.data.team_postdocs %}
+  <div class="media team-member">
+    <img class="mr-3" src="{{ member.image | relative_url }}">
+    <div class="media-body">
+      <h5 id="{{ member.name | strip | url_encode }}">
+        {{ member.name }}
+        {% if member.role %}
+        <small class="text-muted">| {{ member.role }}</small>
+        {% endif %}
+      </h5>
+
+      {{ member.description | markdownify }}
+
+      <ul class="list-inline">
+        {% if member.orcid %}
+        <li class="list-inline-item">
+          <a href="https://orcid.org/{{ member.orcid }}"><img class="orcid" src="{{ '/assets/theme/img/orcid.png' | relative_url }}"></a>
+        </li>
+        {% endif %}
+
+        {% if member.email %}
+        <li class="list-inline-item">
+          <a href="mailto:{{ member.email }}"><i class="fa fa-envelope"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.twitter %}
+        <li class="list-inline-item">
+          <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.github %}
+        <li class="list-inline-item">
+          <a href="https://github.com/{{ member.github }}"><i class="fa fa-github"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.web%}
+        <li class="list-inline-item">
+          <a href="{{ member.web}}"><i class="fa fa-globe"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.linkedin%}
+        <li class="list-inline-item">
+          <a href="{{ member.linkedin}}"><i class="fa fa-linkedin"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.gscholar%}
+        <li class="list-inline-item">
+          <a href="{{ member.gscholar}}"><i class="ai ai-google-scholar"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
+
+
+<h4>PhD students</h4>
+
+{% for member in site.data.team_phds %}
+  <div class="media team-member">
+    <img class="mr-3" src="{{ member.image | relative_url }}">
+    <div class="media-body">
+      <h5 id="{{ member.name | strip | url_encode }}">
+        {{ member.name }}
+        {% if member.role %}
+        <small class="text-muted">| {{ member.role }}</small>
+        {% endif %}
+      </h5>
+
+      {{ member.description | markdownify }}
+
+      <ul class="list-inline">
+        {% if member.orcid %}
+        <li class="list-inline-item">
+          <a href="https://orcid.org/{{ member.orcid }}"><img class="orcid" src="{{ '/assets/theme/img/orcid.png' | relative_url }}"></a>
+        </li>
+        {% endif %}
+
+        {% if member.email %}
+        <li class="list-inline-item">
+          <a href="mailto:{{ member.email }}"><i class="fa fa-envelope"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.twitter %}
+        <li class="list-inline-item">
+          <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.github %}
+        <li class="list-inline-item">
+          <a href="https://github.com/{{ member.github }}"><i class="fa fa-github"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.web%}
+        <li class="list-inline-item">
+          <a href="{{ member.web}}"><i class="fa fa-globe"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.linkedin%}
+        <li class="list-inline-item">
+          <a href="{{ member.linkedin}}"><i class="fa fa-linkedin"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.gscholar%}
+        <li class="list-inline-item">
+          <a href="{{ member.gscholar}}"><i class="ai ai-google-scholar"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
+
+
+<h4>Masters students</h4>
+
+{% for member in site.data.team_masters %}
+  <div class="media team-member">
+    <img class="mr-3" src="{{ member.image | relative_url }}">
+    <div class="media-body">
+      <h5 id="{{ member.name | strip | url_encode }}">
+        {{ member.name }}
+        {% if member.role %}
+        <small class="text-muted">| {{ member.role }}</small>
+        {% endif %}
+      </h5>
+
+      {{ member.description | markdownify }}
+
+      <ul class="list-inline">
+        {% if member.orcid %}
+        <li class="list-inline-item">
+          <a href="https://orcid.org/{{ member.orcid }}"><img class="orcid" src="{{ '/assets/theme/img/orcid.png' | relative_url }}"></a>
+        </li>
+        {% endif %}
+
+        {% if member.email %}
+        <li class="list-inline-item">
+          <a href="mailto:{{ member.email }}"><i class="fa fa-envelope"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.twitter %}
+        <li class="list-inline-item">
+          <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.github %}
+        <li class="list-inline-item">
+          <a href="https://github.com/{{ member.github }}"><i class="fa fa-github"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.web%}
+        <li class="list-inline-item">
+          <a href="{{ member.web}}"><i class="fa fa-globe"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.linkedin%}
+        <li class="list-inline-item">
+          <a href="{{ member.linkedin}}"><i class="fa fa-linkedin"></i></a>
+        </li>
+        {% endif %}
+        
+        {% if member.gscholar%}
+        <li class="list-inline-item">
+          <a href="{{ member.gscholar}}"><i class="ai ai-google-scholar"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
+
 
