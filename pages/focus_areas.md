@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 
-TODO: Insert research statement and description of main themes.
+Under construction
 
 
 <!-- See [`pages/about.md`](https://raw.githubusercontent.com/peterdesmet/petridish/master/pages/about.md) for the raw Markdown of this page.
