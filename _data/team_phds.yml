@@ -4,7 +4,7 @@
   role: Artificial Intelligence, Department of Computer Science and Technology
   image: assets/img/members/t-azevedo.JPG
   description: > # Can be Markdown
-    I am interested in applications of Artificial intelligence methods in real-world scenarios (e.g., neuroscientific and genetic datasets), with a recent focus on graph neural networks and the sustainable development goals.
+    I am interested in applications of Artificial Intelligence methods in real-world scenarios (e.g., neuroscientific and genetic datasets), with a recent focus on graph neural networks and the sustainable development goals.
   # github: 
   # twitter: 
   web: http://tjiagom.github.io
@@ -35,7 +35,7 @@
   role: Artificial Intelligence, Department of Computer Science and Technology
   image: assets/img/members/c-cangea.jpg 
   description: > # Can be Markdown
-    I am a final-year PhD student supervised by Prof Pietro Liò. My research focuses on learning multimodal and graph-structured representations of the world; I am also generally interested in equipping embodied agents with visual reasoning, structural biases and navigation skills. From July to November 2020, I was a Research Scientist Intern at DeepMind, hosted by Piotr Mirowski in the Lifelong and Embodied Deep Learning team led by Raia Hadsell. Previous research experience includes a Graph ML consultancy for Relation Therapeutics, an AI Residency at (Google) X and a research internship at Mila with Aaron Courville.
+    I am a final-year PhD student supervised by Prof Pietro Liò. My research focuses on learning multimodal and graph-structured representations of the world; I am also interested in equipping embodied agents with visual reasoning, structural biases and navigation skills. From July to November 2020, I was a Research Scientist Intern at DeepMind, hosted by Piotr Mirowski in the Robotics, Embodied Agents and Lifelong learning (REAL) team led by Raia Hadsell. Previous research experience includes a Graph ML consultancy for Relation Therapeutics, an AI Residency at (Google) X and a research internship at Mila with Aaron Courville.
   # github: 
   twitter: catalinacangea
   web: http://www.cst.cam.ac.uk/~ccc53
@@ -68,7 +68,7 @@
   role: Artificial Intelligence, Department of Computer Science and Technology
   # image: #assets/img/members/
   description: > # Can be Markdown
-    Undergrad + Part III (Integrated masters) at Cambridge. Both undergrad and postgraduate thesis focused on DeepLearning with the postgraduate thesis focusing on Neural Execution and Graph Neural Networks. Current interests are the application of N.E. and GNNs in various fields.
+    Undergrad + Part III (Integrated masters) at Cambridge. Both undergrad and postgraduate thesis focused on Deep Learning with the postgraduate thesis focusing on Neural Execution and Graph Neural Networks. Current interests are the application of N.E. and GNNs in various fields.
   github: HekpoMaH
   twitter: DobrikG
 
@@ -76,7 +76,7 @@
   role: Lee Group (Theory of Condensed Matter), Department of Physics
   image: assets/img/members/r-griffiths.png
   description: > # Can be Markdown
-    Research Interests include Bayesian Optimisation, Gaussian Processes and Molecular Machine Learning
+    Research Interests include Bayesian Optimisation, Gaussian Processes and Molecular Machine Learning.
   github: Ryan-Rhys
   twitter: Ryan__Rhys
   # web: 
