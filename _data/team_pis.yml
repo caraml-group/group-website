@@ -19,7 +19,7 @@
   image: assets/img/members/s-holden.jpg 
   description: > # Can be Markdown
     I specialise in Machine Learning, with around three decades' experience split mostly between my current post and a stint of several years at University College London, where I was Director of the Advanced Masters Programme in Intelligent Systems. I have published in multiple areas of theoretical and applied machine learning covering ground from computational learning theory---for example, deriving bounds on the sample complexity of the cross-validation estimate---to applications in organelle proteomics, particularly data fusion for protein localization. My current research focuses on machine learning for automated theorem-proving. This field provides multiple challenges, not least that the sensitivity of most solvers to small changes in the complexity of a heuristic forces a dichotomy between fast, simple methods that maintain and possibly improve the inherent performance of the solver, versus more complex "deep" methods that, while they might make better decisions, often take much longer to do so, and as a result can reduce ultimate performance.
-  web: https://www.cst.cam.ac.uk/~sbh11
+  web: https://www.cl.cam.ac.uk/~sbh11
 
 # - name: 
 #   role: Artificial Intelligence, Department of Computer Science and Technology
